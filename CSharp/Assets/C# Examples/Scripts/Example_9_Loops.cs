@@ -10,7 +10,8 @@ public class Example_9_Loops : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-		for (int i = 0; i <= counterMax; i++)
+        
+        for (int i = 0; i <= counterMax; i++)
         {
             Debug.Log("Counting: " + i);
 
@@ -18,7 +19,19 @@ public class Example_9_Loops : MonoBehaviour
             {
                 Debug.Log("Current 3");
             }
+
+
         }
+        
+
+        
+        int j = 0;
+        while ( j < 10)
+        {
+            Debug.Log("Count while: " + j);
+            j++;
+        }
+        
 	}
 	
 	// Update is called once per frame
